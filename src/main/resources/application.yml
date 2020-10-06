@@ -1,0 +1,8 @@
+server:
+  port : 8081
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/javarestapi
+    username: postgres
+    password: fortuna246
+    pool-size: 30
