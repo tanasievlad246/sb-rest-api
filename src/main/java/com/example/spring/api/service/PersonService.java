@@ -29,7 +29,7 @@ public class PersonService {
     }
 
     public Optional<Person> getPersonById(UUID id){
-        return personDao.selectPersonById(id);
+        return (Optional<Person>) personDao.selectPersonById(id);
     }
 
     public int deletePerson(UUID id) {
